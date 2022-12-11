@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "crypto-tracker"
+version = "0.1.0"
+description = ""
+authors = ["ilarionkuleshov <ilarion.kuleshov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "crypto_tracker"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pytelegrambotapi = "^4.7.1"
+requests = "^2.28.1"
+python-dotenv = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
